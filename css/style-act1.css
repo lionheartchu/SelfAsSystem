@@ -1,0 +1,73 @@
+body{
+    margin:2% 2% 2% 5%;
+    font-family: 'Yrsa';
+    letter-spacing: 0.15vh;
+    color:ghostwhite;
+    font-size:1.25vw;
+    background-color: rgb(15,35,45);
+}
+.box{
+    background-color:rgba(0,0,0,0.2);
+    position:absolute;
+    height:19vh;
+    width:30vw;
+    margin-top:-4%;
+    margin-left:-5%;
+}
+#img1{
+    position:absolute;
+    width:4vh;
+    margin-top:3%;
+    margin-left:-1.65%;
+}
+h1{
+    margin-top:3%;
+    margin-left:2%;
+    padding-top:3%;
+    
+}
+.no{
+    font-size: 2vw;
+    margin-top:5%;
+}
+.line-1 {
+    height: 0.15vh;
+    width:25vw;
+    background: ghostwhite;
+    margin-bottom:-0.5%;
+}
+.line-2 {
+    height: 0.05vh;
+    width:6vw;
+    background: ghostwhite;
+    margin-bottom:-0.5%;
+}
+.line-3 {
+    height: 0.05vh;
+    width:7vw;
+    background: ghostwhite;
+    margin-bottom:-0.5%;
+}
+.line-4 {
+    height: 0.05vh;
+    width:3vw;
+    background: ghostwhite;
+    margin-bottom:-0.5%;
+}
+.line-5 {
+    height: 0.05vh;
+    width:9vw;
+    background: ghostwhite;
+    margin-bottom:-0.5%;
+}
+
+.tag{
+    font-size:1.2vw;
+    margin-bottom:-1.4%;
+}
+.cont{
+    font-family: 'Handjet';
+    font-size:1.8vw;
+    letter-spacing: 0.4vh;
+
+}

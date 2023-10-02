@@ -1,0 +1,101 @@
+body{
+    margin:2%;
+    font-family: 'Yrsa';
+    letter-spacing: 0.15vh;
+    font-size:1.3vw;
+    background-color: rgba(15,35,45);
+    color:ghostwhite;
+}
+main{
+    margin-left:3%;
+}
+#info{
+    font-family: 'Handjet';
+    letter-spacing: 0.25vh;
+    word-spacing: 0.5vh;
+    font-size: 1.4vw;
+}
+#info li{
+    margin-bottom:2.2vw;
+}
+#img1{
+    position:absolute;
+    width:4vh;
+    margin-top:0.3%;
+    margin-left:-3.2%;
+}
+.folder-cont{
+    /* display: none; */
+    margin:2%;
+    word-spacing: 70vh;
+    padding-left:10%;
+    opacity: 0;
+    transition: opacity 1s;
+    height:0;
+}
+#folder:hover + .folder-cont {
+    /* display:block; */
+    opacity:1;
+    height:auto;
+}
+
+.document-cont{
+    display: none;
+    margin:1%;
+    padding-left:10%;
+    word-spacing: 30vh;
+}
+#document:hover + .document-cont {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    gap:1px;
+}
+.document-cont p{
+    margin:0.7vw;
+}
+
+.slides-cont{
+    display: none;
+    margin:1%;
+    padding-left:10%;
+    word-spacing: 33vh;
+}
+#slides:hover + .slides-cont {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+.slides-cont p{
+    margin:0.7vw;
+}
+
+.videos-cont{
+    display: none;
+    margin:1%;
+    padding-left:10%;
+    word-spacing: 37vh;
+}
+#videos:hover + .videos-cont {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+.videos-cont p{
+    margin:0.7vw;
+}
+
+.images-cont{
+    display: none;
+    margin:1%;
+    padding-left:10%;
+    word-spacing: 50vh;
+}
+#images:hover + .images-cont {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+.images-cont p{
+    margin:0.7vw;
+}

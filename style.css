@@ -1,0 +1,82 @@
+@keyframes show{
+    from {opacity:0}
+    to {opacity:1;}
+}
+
+body{
+    background-color: rgba(15,35,45);
+    font-size:1.3vw;
+    font-family: 'Yrsa';
+    margin:3%;
+    letter-spacing:0.15vh;
+}
+main{
+    padding:2%;
+    /* background-color: rgba(56,158,225,0.7); */
+    /* background-color: rgba(0,0,0,0.4); */
+    color:ghostwhite;
+    /* box-shadow: 0.6vw 0.6vw 1.2vw 0.05vw white; */
+}
+#img1{
+    width:40vw;
+    position: absolute;
+    margin-left:50vw;
+    margin-top:-2%;
+}
+#link-devices{
+    font-size:2vw;
+    margin-left:60%;
+    margin-top:18%;
+    position: absolute;
+}
+#link-brain{
+    font-size:2vw;
+    margin-left:78%;
+    margin-top:5%;
+    position: absolute;
+}
+#link-act{
+    font-size:2vw;
+    margin-left:82%;
+    margin-top:20%;
+    position: absolute;
+}
+#link-drive{
+    font-size:2vw;
+    margin-left:66%;
+    margin-top:26%;
+    position: absolute;
+}
+
+
+#footer{
+    position:absolute;
+    font-family: 'Handjet';
+    letter-spacing: 0.25vh;
+    margin-top:30%;
+    width:90vw;
+    font-size:2vw;
+}
+
+/* ip addresses */
+#ip:hover + .container {
+    color:ghostwhite;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color:rgb(255,255,255,0.4);
+    transition:color 1s;
+
+}
+.ip1{
+    animation: show 3s ease-in-out infinite alternate;
+}
+.ip2{
+    opacity:0;
+    animation: show 5s ease-in 2s infinite alternate;
+}
+a{
+    color:rgb(50,152,221);
+}

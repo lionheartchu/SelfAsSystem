@@ -1,0 +1,16 @@
+body{
+    margin:2%;
+    font-family: 'Yrsa';
+    letter-spacing: 0.15vh;
+}
+
+#info{
+    font-family: 'Handjet';
+    letter-spacing: 0.25vh;
+    word-spacing: 0.5vh;
+    font-size: 1.4vw;
+}
+#img1{
+    width:75vw;
+    
+}

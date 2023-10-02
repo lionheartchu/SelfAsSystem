@@ -1,0 +1,122 @@
+body{
+    margin:2%;
+    font-family: 'Yrsa';
+    letter-spacing: 0.15vh;
+}
+#info{
+    font-family: 'Handjet';
+    letter-spacing: 0.25vh;
+    word-spacing: 0.5vh;
+    font-size: 10vw;
+    position: absolute;
+    margin-top:-80%;
+    margin-left:15%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+#a{
+    padding-right:160%;
+    padding-left:140%;
+    padding-top:80%;
+    padding-bottom:50%;
+    transition: color 1s;
+}
+#a:hover {
+    color:rgb(50, 152, 221);
+}
+#b{
+    padding-right:160%;
+    padding-left:160%;
+    padding-top:80%;
+    padding-bottom:50%;  
+    transition: color 1s;
+}
+#b:hover {
+    color:rgb(50, 152, 221);
+}
+#c{
+    padding-right:160%;
+    padding-left:210%;
+    margin-top:-90%;
+    padding-top:80%;
+    padding-bottom:50%;
+    transition: color 1s;
+}
+#c:hover {
+    color:silver;
+}
+#d{
+    padding-right:160%;
+    padding-left:210%;
+    margin-top:-90%;
+    padding-top:80%;
+    padding-bottom:50%;
+    transition: color 1s;
+}
+#d:hover {
+    color:silver;
+}
+h1{
+    padding-left:12%;
+    padding-top:2.5%;
+}
+
+.intro{
+    position: absolute;
+    margin-left:70%;
+    margin-top:-80%;
+    font-size:2vw;
+    margin-bottom:3%;
+    opacity:0;
+    transition:opacity 1.2s;
+}
+/* .box{
+    background-color:rgba(0,0,0,0.15);
+    position:absolute;
+    height:19vh;
+    width:27vw;
+    margin-top:-5%;
+    margin-left:-7%;
+} */
+#brainimg{
+    width:87vw;
+    margin-left: 4%;
+    margin-top:3%;
+    /* position:sticky; */
+    
+}
+#brainimg:hover + .intro{
+    opacity:1;
+}
+
+.exp1{
+    position:absolute;
+    margin-top:-74%;
+    margin-left:1%;
+    display: flex;
+    align-items: center; 
+    font-size: 1.2vw;
+}
+.circle1{
+    height:1.6vw;
+    width:2.8vw;
+    background-color: rgb(50, 152, 221);
+    margin-right:6%;
+}
+
+.exp2{
+    position:absolute;
+    margin-top:-70%;
+    display: flex;
+    margin-left:1%;
+    align-items: center; 
+    font-size: 1.2vw;
+}
+.circle2{
+    height:1.6vw;
+    width:2.8vw;
+    background-color: silver;
+    margin-right:6%;
+}
