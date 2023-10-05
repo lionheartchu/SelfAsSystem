@@ -38,11 +38,35 @@
                 <p> Device Type: PC</p>
                 <p>App: CHROME</p>
                 <p> Product Name: Gmail</p> -->
-                
-           
         </div>
+        
+        <div class="chart">
+            <div class="container-circle">
+            <div class="circle-outer"></div>
+            <div class="circle-inner">mouse here</div>
+            <div class="circle-ip-fre"></div>
+            <div class="vertical-line"></div>
+            <div class="hori-line"></div>
+            <p class="num1">44.3%</p>
+        </div>
+        </div>
+        
+
+        <div id="svg-container">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                <path id="curve" d="M90,365 C178,85 390,85 500,365" />
+                <text width="100%" text-anchor="middle">
+                    <textPath xlink:href="#curve" startOffset="50%">
+                        IP Occurrence Frequency
+                    </textPath>
+                </text>
+            </svg>
+        </div>
+        
+
     </main>
     <a class="bk" href="../pages/activities.html">Back</a>
+    <script src="../scripts/script-act1.js"></script>
 </body>
 
 </html>

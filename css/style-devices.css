@@ -26,22 +26,60 @@ body{
     background-color: rgba(15,35,45);
     transition:background-color 1.5s;
 }
-
+#type2{
+    padding:1.5%;
+    width:25vw;
+    background-color: rgba(15,35,45);
+    transition:background-color 1.5s;
+    margin-bottom:15%;
+}
 #text1{
-    opacity:0;
-    transition:opacity 1.5s;
+    /* opacity:0; */
+    transition:margin-left ease-in-out 1.5s,background-color 2s, font-size 2s;
     margin-left:5%;
+    background-color: none;
     font-family: 'Handjet';
     word-spacing:0.3vw;
 }
-#type1:hover + #text1{
-    opacity:1;
-    width:45vw;
-    height:15vw;
+#text2{
+    /* opacity:0; */
+    transition:margin-left ease-in-out 1.5s,background-color 2s, font-size 2s;
+    margin-left:5%;
+    background-color: none;
+    font-family: 'Handjet';
+    word-spacing:0.3vw;
+}
+#type1:hover > #text1{
+    width:50vw;
+    height:20vw;
     color: ghostwhite;
     /* box-shadow: 0.5vw 0.5vw 1vw 0.05vw silver; */
     background-color:rgba(0,0,0,0.3);
     text-align: center;
-    font-size:1.8vw;
+    font-size:2vw;
     padding:2%;
+    margin-left:25vw;
+    display: block;
+}
+#type2:hover > #text2{
+    width:50vw;
+    height:8vw;
+    color: ghostwhite;
+    /* box-shadow: 0.5vw 0.5vw 1vw 0.05vw silver; */
+    background-color:rgba(0,0,0,0.3);
+    text-align: center;
+    font-size:2vw;
+    padding:2%;
+    margin-left:25vw;
+    margin-top:-8vw;
+    display: block;
+}
+
+a{
+    color:ghostwhite;
+    opacity:1;
+    transition:color 0.5s;
+}
+a:hover{
+    color:rgb(50, 152, 221);
 }

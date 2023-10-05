@@ -99,3 +99,15 @@ main{
 .images-cont p{
     margin:0.7vw;
 }
+
+a{
+    color:ghostwhite;
+    opacity:1;
+    transition:color 0.5s;
+}
+a:hover{
+    color:rgb(50, 152, 221);
+}
+.tool{
+    margin-bottom:20%;
+}
