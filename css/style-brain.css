@@ -84,7 +84,6 @@ h1{
     width:87vw;
     margin-left: 4%;
     margin-top:3%;
-    /* position:sticky; */
     
 }
 #brainimg:hover + .intro{
@@ -119,4 +118,15 @@ h1{
     width:2.8vw;
     background-color: silver;
     margin-right:6%;
+}
+
+.bk{
+    color:rgb(15,35,45);
+    opacity:1;
+    transition:color 0.5s;
+    font-size:2vw;
+    margin-left:5%;
+}
+.bk:hover{
+    color:rgb(50, 152, 221);
 }

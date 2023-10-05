@@ -66,6 +66,12 @@ main{
 #ab:hover + #wrapper {
     opacity:1;
   }
+#ab{
+    transition:color 0.5s;
+}
+#ab:hover{
+    color:ghostwhite
+}
 #title{
     background-color: rgba(0,0,0,0.3);
     padding:2%;
@@ -253,6 +259,11 @@ h1{
     /* text-align: center; */
     letter-spacing: -0.4vw;
     margin-top:-7%;
+    line-height:30%;
+    transition:color 0.5s;
+}
+#ip:hover{
+    color:ghostwhite;
 }
 .ip1{
     animation: blink2 3s ease-in-out infinite alternate;
